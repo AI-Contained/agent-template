@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "deny": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "NotebookEdit",
+      "Bash",
+      "Agent",
+      "EnterPlanMode",
+      "ExitPlanMode",
+      "TaskCreate",
+      "TaskList",
+      "TaskUpdate",
+      "EnterWorktree",
+      "ExitWorktree",
+      "Monitor",
+      "CronCreate",
+      "CronDelete",
+      "ScheduleWakeup",
+      "AskUserQuestion",
+      "WebSearch",
+      "WebFetch",
+      "PushNotification",
+      "TaskGet",
+      "TaskOutput",
+      "TaskStop",
+      "CronList",
+      "RemoteTrigger"
+    ]
+  },
+    "skillOverrides": {                                                                                                                                                     
+      "update-config": "off",                                                                                                                                               
+      "keybindings-help": "off",                                                                                                                                            
+      "simplify": "off",                                                                                                                                                    
+      "less-permission-prompts": "off",                                                                                                                                     
+      "loop": "off",                                                                                                                                                        
+      "schedule": "off",                                                                                                                                                    
+      "claude-api": "off",                                                                                                                                                  
+      "init": "off",                                                                                                                                                        
+      "review": "off",                                                                                                                                                      
+      "security-review": "off"
+    },                                                                                                                                                                      
+    "disableAllHooks": true
+}
